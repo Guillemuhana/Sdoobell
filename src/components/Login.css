@@ -1,0 +1,89 @@
+/* Fondo degradado */
+.login-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #0078d4, #2b88d8);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Caja de login */
+  .login-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Encabezado */
+  .login-header {
+    margin-bottom: 1rem;
+  }
+  
+  .login-logo {
+    width: 200px;
+    margin-bottom: 1rem;
+  }
+  
+  .login-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Inputs */
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    margin: 0.75rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .login-input:focus {
+    border-color: #0078d4;
+    box-shadow: 0 0 0 2px rgba(0, 120, 212, 0.2);
+  }
+  
+  /* Botón */
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #005a9e;
+  }
+  
+  /* Pie de página */
+  .login-footer {
+    font-size: 0.9rem;
+    color: #5f6368;
+    margin-top: 1rem;
+  }
+  
+  .login-footer a {
+    color: #0078d4;
+    text-decoration: none;
+  }
+  
+  .login-footer a:hover {
+    text-decoration: underline;
+  }
+  
